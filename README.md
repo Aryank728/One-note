@@ -1,70 +1,55 @@
+Preview of the repo: https://onennote.netlify.app
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Notes App
 
-## Available Scripts
+This is a simple web-based note-taking application built with React. You can create and manage notes, search for specific notes, and even toggle a dark mode. 
 
-In the project directory, you can run:
+# Installation
 
-### `npm start`
+To run this project on your local machine, you need to have Node.js and npm (Node Package Manager) installed. If you don't have them, you can download and install them from [Node.js official website](https://nodejs.org/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone this repository to your local machine using the following command:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The following packages will be installed:
+```bash
+react: ^17.0.2
+react-dom: ^17.0.2
+react-icons: ^4.2.0
+nanoid: ^3.1.19
+react-scripts: 4.0.3 (for development)
+```
 
-### `npm test`
+Start the development code: ```npm start```
+Open your web browser and go to http://localhost:3000 to use the Notes App.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Usage
+Here's how to use the Notes App:
+Click the "Add Note" button to create a new note.
+Enter the note text and save it.
+You can search for specific notes by typing in the search bar.
+To delete a note, click the trash can icon on the note.
+Toggle the dark mode by clicking the "Dark Mode" button in the header.
 
-### `npm run build`
+# Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project structure is as follows:
+```
+App.js: The main component that orchestrates the entire app.
+components/NotesList.js: Renders the list of notes and handles adding and deleting notes.
+components/Header.js: The app's header with a title and dark mode toggle.
+components/Note.js: Displays an individual note with its text, date, and delete functionality.
+components/Search.js: Provides a search bar to filter notes.
+index.js: The entry point of the application.
+index.css: Contains the styles for the entire application.
+```
+# License
+```bash
+This project is open-source and is licensed under the MIT License. Feel free to use and modify it as needed.
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Acknowledgments
+```bash
+This project was created using React, a JavaScript library for building user interfaces.
+Enjoy using the Notes App for your note-taking needs!
+```
